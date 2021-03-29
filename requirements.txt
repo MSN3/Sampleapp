@@ -4,6 +4,9 @@ Jinja2==2.10.1
 gunicorn==19.9.0
 certifi==2019.11.28
 itsdangerous==1.1.0
-wordnet
-pros_cons
-reuters
+# Dependencies for generating/publishing Python binaries.
+bob-builder==0.0.19
+
+# Sub-dependencies of bob-builder.
+boto==2.49.0
+docopt==0.6.2
